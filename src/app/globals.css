@@ -1,0 +1,12 @@
+:root {
+  --display: var(--font-display), 'Bodoni 72', Didot, Georgia, serif;
+  --text: var(--font-text), system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { background: #f4ecdd; -webkit-text-size-adjust: 100%; }
+body { margin: 0; color: #14211f; font: 400 16px/1.5 var(--text); }
+a { color: inherit; }
+h1, h2, h3, p { margin: 0; }
+button, input, select, textarea { font: inherit; }
+:focus-visible { outline: 3px solid #e08a3c; outline-offset: 2px; }
